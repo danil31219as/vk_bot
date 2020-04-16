@@ -88,12 +88,6 @@ PyMsgBox==1.0.7
 pyparsing==2.4.6
 pyperclip==1.7.0
 pypiwin32==223
-PyQt5==5.13.0
-PyQt5-sip==4.19.19
-PyQt5-stubs==5.13.0.1
-pyqt5-tools==5.13.0.1.5
-PyQt5Designer==5.10.1
-pyqtgraph==0.10.0
 PyRect==0.1.4
 pyrsistent==0.16.0
 PyScreeze==0.1.26
