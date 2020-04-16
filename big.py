@@ -29,5 +29,5 @@ def main():
 
 
 if __name__ == '__main__':
-    TOKEN = os.environ.get("TOKEN")
+    TOKEN = str(os.environ.get("TOKEN"))
     main()
