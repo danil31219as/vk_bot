@@ -5,7 +5,7 @@ from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 import requests
 
 import random
-from config import *
+from config_heroku import *
 
 from data import mainbot
 
