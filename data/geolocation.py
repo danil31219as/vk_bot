@@ -7,10 +7,11 @@ from sqlalchemy_serializer import SerializerMixin
 from .db_session import SqlAlchemyBase
 
 
-class Ideas(SqlAlchemyBase, UserMixin, SerializerMixin):
-    __tablename__ = 'ideas'
+class GeoLocation(SqlAlchemyBase, UserMixin, SerializerMixin):
+    __tablename__ = 'geolocation'
 
     id = sqlalchemy.Column(sqlalchemy.Integer,
                            primary_key=True, autoincrement=True)
-    name = sqlalchemy.Column(sqlalchemy.String, nullable=True)
-    idea = sqlalchemy.Column(sqlalchemy.String, nullable=True)
+    user_id = sqlalchemy.Column(sqlalchemy.String, nullable=True)
+    geo = sqlalchemy.Column(sqlalchemy.String, nullable=True)
+    create_time = sqlalchemy.Column(sqlalchemy.DateTime, nullable=True)
