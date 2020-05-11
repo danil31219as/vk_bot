@@ -1,7 +1,7 @@
 import calendar
 import random
 from datetime import datetime
-from config_heroku import *
+from config import *
 import requests
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from .constants import *
