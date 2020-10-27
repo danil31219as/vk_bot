@@ -13,7 +13,7 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.3
 comtypes==1.1.7
-cryptography==2.8
+cryptography==3.2
 DAWG-Python==0.7.2
 decorator==4.4.2
 defusedxml==0.6.0
