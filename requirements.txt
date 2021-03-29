@@ -81,7 +81,7 @@ PyAutoGUI==0.9.48
 pycparser==2.20
 pygame==1.9.6
 PyGetWindow==0.0.8
-Pygments==2.6.1
+Pygments==2.7.4
 pymorphy2==0.8
 pymorphy2-dicts==2.4.393442.3710985
 PyMsgBox==1.0.7
