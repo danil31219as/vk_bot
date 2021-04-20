@@ -74,7 +74,7 @@ Pillow==6.2.0
 pluggy==0.13.1
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
-py==1.8.1
+py==1.10.0
 pyaes==1.6.1
 pyasn1==0.4.8
 PyAutoGUI==0.9.48
