@@ -104,7 +104,7 @@ PyYAML==5.2
 pyzmq==19.0.0
 redis==3.4.1
 requests==2.22.0
-rsa==4.0
+rsa==4.7
 schedule==0.6.0
 scikit-learn==0.22.2.post1
 scipy==1.4.1
